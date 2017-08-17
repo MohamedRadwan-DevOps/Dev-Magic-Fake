@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6944BD6-2DCE-43AC-93F6-DF1C3E803238}"
+	ProjectSection(SolutionItems) = preProject
+		DevelopeByFeature.vsmdi = DevelopeByFeature.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryFakeMVC3", "TryFakeMVC3\TryFakeMVC3.csproj", "{1594FAD4-E31B-4200-A618-A82538A1E26D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- DevMagicFake", "1- DevMagicFake", "{59305BA8-4C45-40B5-9FD6-DA595BF136A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- MVC Project Use DevMagicFake", "2- MVC Project Use DevMagicFake", "{56E69838-5E47-4FAB-98A9-6EB79A2D96AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Others", "3- Others", "{92FF6D68-4290-434A-BE0F-313AEE6AD7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesTest", "EntitiesTest\EntitiesTest.csproj", "{66B7316F-E278-42E6-B77D-03B3A1568C80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Test", "1.2 - Test", "{8CB81A9B-E72F-4F6A-AA3A-A85BBE6F6E49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Framework", "1.1 - Framework", "{AA8DA995-AE63-468F-951A-D28274D1FB5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMagicFake", "DevMagicFake\DevMagicFake.csproj", "{B1EA7079-546B-470F-97A5-3F94D3267DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMagicFakeTest", "DevMagicFakeTest\DevMagicFakeTest.csproj", "{FC583421-8462-4031-9C62-FAECDF17AA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{5DED44E6-BF35-4CD2-A04D-A4471DD06AD2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs35
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DevMagicFake\\DevMagicFake.csproj
+		SccProjectTopLevelParentUniqueName1 = DevelopeByFeature.sln
+		SccProjectName1 = DevMagicFake
+		SccLocalPath1 = DevMagicFake
+		SccProjectUniqueName2 = DevMagicFakeTest\\DevMagicFakeTest.csproj
+		SccProjectTopLevelParentUniqueName2 = DevelopeByFeature.sln
+		SccProjectName2 = DevMagicFakeTest
+		SccLocalPath2 = DevMagicFakeTest
+		SccProjectUniqueName3 = EntitiesTest\\EntitiesTest.csproj
+		SccProjectTopLevelParentUniqueName3 = DevelopeByFeature.sln
+		SccProjectName3 = EntitiesTest
+		SccLocalPath3 = EntitiesTest
+		SccProjectUniqueName4 = TryFakeMVC3\\TryFakeMVC3.csproj
+		SccProjectTopLevelParentUniqueName4 = DevelopeByFeature.sln
+		SccProjectName4 = TryFakeMVC3
+		SccLocalPath4 = TryFakeMVC3
+		SccProjectUniqueName5 = Domain\\Domain.csproj
+		SccProjectTopLevelParentUniqueName5 = DevelopeByFeature.sln
+		SccProjectName5 = Domain
+		SccLocalPath5 = Domain
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DevelopeByFeature.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1594FAD4-E31B-4200-A618-A82538A1E26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1594FAD4-E31B-4200-A618-A82538A1E26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1594FAD4-E31B-4200-A618-A82538A1E26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1594FAD4-E31B-4200-A618-A82538A1E26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B7316F-E278-42E6-B77D-03B3A1568C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B7316F-E278-42E6-B77D-03B3A1568C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B7316F-E278-42E6-B77D-03B3A1568C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B7316F-E278-42E6-B77D-03B3A1568C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EA7079-546B-470F-97A5-3F94D3267DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EA7079-546B-470F-97A5-3F94D3267DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EA7079-546B-470F-97A5-3F94D3267DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EA7079-546B-470F-97A5-3F94D3267DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC583421-8462-4031-9C62-FAECDF17AA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC583421-8462-4031-9C62-FAECDF17AA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC583421-8462-4031-9C62-FAECDF17AA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC583421-8462-4031-9C62-FAECDF17AA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DED44E6-BF35-4CD2-A04D-A4471DD06AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DED44E6-BF35-4CD2-A04D-A4471DD06AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DED44E6-BF35-4CD2-A04D-A4471DD06AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DED44E6-BF35-4CD2-A04D-A4471DD06AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6944BD6-2DCE-43AC-93F6-DF1C3E803238} = {92FF6D68-4290-434A-BE0F-313AEE6AD7D6}
+		{1594FAD4-E31B-4200-A618-A82538A1E26D} = {56E69838-5E47-4FAB-98A9-6EB79A2D96AA}
+		{5DED44E6-BF35-4CD2-A04D-A4471DD06AD2} = {56E69838-5E47-4FAB-98A9-6EB79A2D96AA}
+		{8CB81A9B-E72F-4F6A-AA3A-A85BBE6F6E49} = {59305BA8-4C45-40B5-9FD6-DA595BF136A8}
+		{AA8DA995-AE63-468F-951A-D28274D1FB5E} = {59305BA8-4C45-40B5-9FD6-DA595BF136A8}
+		{66B7316F-E278-42E6-B77D-03B3A1568C80} = {8CB81A9B-E72F-4F6A-AA3A-A85BBE6F6E49}
+		{FC583421-8462-4031-9C62-FAECDF17AA28} = {8CB81A9B-E72F-4F6A-AA3A-A85BBE6F6E49}
+		{B1EA7079-546B-470F-97A5-3F94D3267DCF} = {AA8DA995-AE63-468F-951A-D28274D1FB5E}
+	EndGlobalSection
+EndGlobal

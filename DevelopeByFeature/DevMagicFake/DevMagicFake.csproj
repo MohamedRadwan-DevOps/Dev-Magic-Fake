@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1EA7079-546B-470F-97A5-3F94D3267DCF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>M.Radwan.DevMagicFake</RootNamespace>
+    <AssemblyName>DevMagicFake</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\DevMagicFake.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\IRepository.cs" />
+    <Compile Include="Attributes\Fakeable.cs" />
+    <Compile Include="Attributes\NotFakeable.cs" />
+    <Compile Include="Configuration\ConfigurationOption.cs" />
+    <Compile Include="Configuration\FrameworkSettings.cs" />
+    <Compile Include="DataGeneration\DataGenerationManager.cs" />
+    <Compile Include="DataGeneration\DataGenerationOption.cs" />
+    <Compile Include="DataGeneration\DataGenerationServices.cs" />
+    <Compile Include="DataGeneration\DataGenerationType.cs" />
+    <Compile Include="DataGeneration\DataGenerators.cs" />
+    <Compile Include="DataGeneration\GenerationType.cs" />
+    <Compile Include="Extensions\DotNetExtensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FakeRepositories\BaseFakeRepository.cs" />
+    <Compile Include="FakeRepositories\FakeRepository.cs" />
+    <Compile Include="FakeRepositories\FakeRepository`1.cs" />
+    <Compile Include="FakeRepositories\FakeRepository`2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FakeRepositories\FakeRepository`3.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FakeRepositories\RepositoryFactory.cs" />
+    <Compile Include="FakeRepositories\RepositoryUtilities.cs" />
+    <Compile Include="MemoryStorage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\ConfigurationUtilities.cs" />
+    <Compile Include="Utilities\DataGenerationUtilities.cs" />
+    <Compile Include="Utilities\ExpressionUtilities.cs" />
+    <Compile Include="Utilities\StringUtilities.cs" />
+    <Compile Include="Utilities\Utilitie.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration\App.config" />
+    <None Include="Configuration\FakeSettings.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
