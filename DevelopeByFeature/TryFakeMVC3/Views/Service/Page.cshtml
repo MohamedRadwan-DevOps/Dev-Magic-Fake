@@ -1,0 +1,70 @@
+﻿@model IEnumerable<M.Radwan.Domain.Entities.ServiceForm>
+
+@{
+    ViewBag.Title = "Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Page</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Code
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Provided Vendor
+        </th>
+        <th>
+            ProductType
+        </th>
+        <th>
+            FixedCommission
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Price
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VendorForm.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductTypeForm.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FixedCommission)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
