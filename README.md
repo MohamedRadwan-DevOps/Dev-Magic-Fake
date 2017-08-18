@@ -78,28 +78,28 @@
 <p>&nbsp;</p>
 <p><strong>Links</strong></p>
 <ul>
-<li><a title="Video Tutorial" href="http://mohamedradwan.wordpress.com/2011/09/03/dev-magic-fake-video-tutorial/" target="_blank">Dev Magic Fake Video Tutorial</a>
+<li><a title="Video Tutorial" href="http://mohamedradwan.com/2011/09/03/dev-magic-fake-video-tutorial/" target="_blank">Dev Magic Fake Video Tutorial</a>
 </li></ul>
 <ul>
-<li><a title="MVC Project" href="http://devmagicfake.codeplex.com/releases/view/72750#DownloadId=276877" target="_blank">MVC 3.0 Project that use Dev Magic Fake (TryDevMagicFake)</a>
+<li><a title="MVC Project" href="/misc/TryDevMagicFake.rar" target="_blank">MVC 3.0 Project that use Dev Magic Fake (TryDevMagicFake)</a>
 </li></ul>
 <ul>
-<li><a title="Dev Magic Fake story" href="http://mohamedradwan.wordpress.com/2011/09/03/the-reasons-of-creating-and-naming-dev-magic-fake/" target="_blank">Introduction to Dev Magic Fake</a>
+<li><a title="Dev Magic Fake story" href="http://mohamedradwan.com/2011/09/03/the-reasons-of-creating-and-naming-dev-magic-fake/" target="_blank">Introduction to Dev Magic Fake</a>
 </li></ul>
 <ul>
-<li><a title="Uderstand Dev Magic Fake " href="http://devmagicfake.codeplex.com/releases/view/72750#DownloadId=276874" target="_blank">Understanding Dev Magic Fake PDF</a>
+<li><a title="Uderstand Dev Magic Fake " href="/misc/Understanding Dev Magic Fake.pdf" target="_blank">Understanding Dev Magic Fake PDF</a>
 </li></ul>
 <ul>
-<li><a title="Dev Magic Fake Tutorial" href="http://devmagicfake.codeplex.com/releases/view/72750#DownloadId=276873" target="_blank">Tutorial of how to use Dev Magic Fake PDF&nbsp;</a>
+<li><a title="Dev Magic Fake Tutorial" href="/misc/How to use Dev Magic Fake Tutorial 1.1.pdf" target="_blank">Tutorial of how to use Dev Magic Fake PDF&nbsp;</a>
 </li></ul>
 <ul>
-<li><a title="Dev Magic Fake Help Fle" href="http://devmagicfake.codeplex.com/releases/view/72750#DownloadId=276876" target="_blank">Dev Magic Fake Help file CHM</a>
+<li><a title="Dev Magic Fake Help Fle" href="/misc/DevMagicFake.chm" target="_blank">Dev Magic Fake Help file CHM</a>
 </li></ul>
 <ul>
-<li><a title="Presention of Dev Magic Fake features" href="http://devmagicfake.codeplex.com/releases/view/72750#DownloadId=276875" target="_blank">Dev Magic Fake quick introduction presentation PPTX&nbsp;</a>
+<li><a title="Presention of Dev Magic Fake features" href="/misc/Introduction to Dev Magic Fake Framework.pptx" target="_blank">Dev Magic Fake quick introduction presentation PPTX&nbsp;</a>
 </li></ul>
 <ul>
-<li><a title="Presention of Dev Magic Fake features" href="http://devmagicfake.codeplex.com/releases/view/72750#DownloadId=302003" target="_blank">Faking Snippets</a>
+<li><a title="Presention of Dev Magic Fake features" href="/misc/DevMagicFakeSnippet.msi" target="_blank">Faking Snippets</a>
 </li></ul>
 <p>&nbsp;</p>
 <p><strong>The main goals of Dev Magic Fake are to give us the ability to:</strong></p>
@@ -124,7 +124,7 @@
 <p>&nbsp;</p>
 <p><strong>Founder and creator</strong></p>
 <p>Dev Magic Fake authored and created by M.Radwan</p>
-<p><a href="http://mohamedradwan.com/">http://mohamedradwan.wordpress.com</a></p>
+<p><a href="http://mohamedradwan.com/">http://mohamedradwan.com</a></p>
 <p>Please contact me if you want to contribute to this project on</p>
 <p><a title="email" href="mailto:mradwan.automationplanet@gmail.com" target="_blank">mradwan.automationplanet@gmail.com</a></p>
 <p>Thanks</p>
