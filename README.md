@@ -125,8 +125,6 @@
 <p><strong>Founder and creator</strong></p>
 <p>Dev Magic Fake authored and created by M.Radwan</p>
 <p><a href="http://mohamedradwan.com/">http://mohamedradwan.com</a></p>
-<p>Please contact me if you want to contribute to this project on</p>
-<p><a title="email" href="mailto:mradwan.automationplanet@gmail.com" target="_blank">mradwan.automationplanet@gmail.com</a></p>
 <p>Thanks</p>
 </div>
 </div>
